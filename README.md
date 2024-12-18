@@ -1,15 +1,3 @@
-<p align="center">
-<a href="https://travis-ci.com/oborchers/Fast_Sentence_Embeddings"><img alt="Build Status" src="https://travis-ci.com/oborchers/Fast_Sentence_Embeddings.svg?branch=master"></a>
-<a href="https://coveralls.io/github/oborchers/Fast_Sentence_Embeddings?branch=master"><img alt="Coverage Status" src="https://coveralls.io/repos/github/oborchers/Fast_Sentence_Embeddings/badge.svg?branch=master"></a>
-<a href="https://pepy.tech/project/fse"><img alt="Downloads" src="https://pepy.tech/badge/fse"></a>
-<a href="https://lgtm.com/projects/g/oborchers/Fast_Sentence_Embeddings/context:python"><img alt="Language grade: Python" src="https://img.shields.io/lgtm/grade/python/g/oborchers/Fast_Sentence_Embeddings.svg"></a>
-<a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
-<a href="https://img.shields.io/github/license/oborchers/Fast_Sentence_Embeddings.svg?style=flat"><img alt="License: GPL3" src="https://img.shields.io/github/license/oborchers/Fast_Sentence_Embeddings.svg?style=flat"></a>
-</p>
-<p align="center">
-<a><img alt="fse" src="https://raw.githubusercontent.com/oborchers/Fast_Sentence_Embeddings/develop/media/fse.png"></a>
-</p>
-
 Fast Sentence Embeddings
 ==================================
 
@@ -104,7 +92,7 @@ In case you want to build from source, just run:
 
 If building the Cython extension fails (you will be notified), try:
 
-    pip install -U git+https://github.com/oborchers/Fast_Sentence_Embeddings
+    pip install -U git+https://github.com/VHRanger/Fast_Sentence_Embeddings
 
 Usage
 -------------
@@ -284,18 +272,6 @@ Embeddings. Int. Conf. Learn. Represent. (Toulon, France), 1–16.
 Proceedings of the 3rd Workshop on Representation Learning for NLP. (Toulon, France), 91–100.
 
 4. Eneko Agirre, Daniel Cer, Mona Diab, Iñigo Lopez-Gazpio, Lucia Specia. Semeval-2017 Task 1: Semantic Textual Similarity Multilingual and Crosslingual Focused Evaluation. Proceedings of SemEval 2017.
-
-
-Copyright
--------------
-
-**Disclaimer**: I am working full time. Unfortunately, I have yet to find time to add all the features I'd like to see. Especially the API needs some overhaul and we need support for gensim 4.0.0.
-
-I am looking for active contributors to keep this package alive. Please feel free to ping me at <o.borchers@oxolo.com> if you are interested.
-
-Author: Oliver Borchers
-
-Copyright (C) 2022 Oliver Borchers
 
 Citation
 -------------
