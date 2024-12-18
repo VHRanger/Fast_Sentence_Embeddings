@@ -115,9 +115,6 @@ class CustomBuildExt(build_ext):
     #
     def finalize_options(self):
         build_ext.finalize_options(self)
-        # Prevent numpy from thinking it is still in its setup process:
-        # https://docs.python.org/2/library/__builtin__.html#module-__builtin__
-        __builtins__.__NUMPY_SETUP__ = False
 
         import numpy
 
